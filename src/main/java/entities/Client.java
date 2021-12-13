@@ -46,7 +46,6 @@ public class Client {
 
     @Override
     public String toString() {
-        return "Client: "
-                + name + " (" + simpleDateFormat.format(birthDate) + ") - " + email;
+        return name + " (" + simpleDateFormat.format(birthDate) + ") - " + email;
     }
 }
