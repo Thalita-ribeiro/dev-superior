@@ -44,8 +44,7 @@ public class OrderItem {
 
     @Override
     public String toString() {
-        return "OrderItem: " +
-                product.getName()
+        return product.getName()
                 + ", $"
                 + String.format("%.2f", price)
                 + ", Quantity: "
